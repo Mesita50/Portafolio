@@ -1,0 +1,26 @@
+.references{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 8rem;
+    border: 2px solid black ;
+    padding: 1rem;
+}
+.references p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+font-weight:800 ;}
+
+@media(max-width:1279px){
+    .references{
+        width: 50%;
+        margin: 0.5rem;
+    }
+}
+@media(max-width:920px){
+    .references{
+        width: 100%;
+        height: 4rem;
+    }
+}

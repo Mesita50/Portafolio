@@ -1,0 +1,18 @@
+.navBar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+}
+@media(max-width:1279px){
+    .navBar{
+        padding: 1rem;
+    }
+
+}
+@media(max-width:920px){
+    .navBar{
+        padding: 0.5rem;
+    }
+
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding:  0;
+}
+
+#menu{
+    display: none;
+}
+#exit{
+    display: none;
+}
+
+@media(max-width:768px){
+    #menu{
+        display: inline;
+    }
+    #exit{
+        display:inline;
+        position:  absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+}

@@ -1,0 +1,30 @@
+.SectionTitle{
+    display: flex;
+    border-bottom: 0.5rem solid #c1ff95;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    width: 100%;
+}
+
+.SectionTitle img{
+    background-color: #c1ff95;
+    border-radius: 60%;
+    width: 2.5rem;
+    padding: 1rem;
+
+
+}
+
+.SectionTitle h2{
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(44, 43, 43);
+}
+@media(max-width:768px){
+    .SectionTitle{
+    }
+    .SectionTitle h2{
+        font-size: 1.2rem;
+    }
+        
+}

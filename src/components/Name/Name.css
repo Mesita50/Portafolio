@@ -1,0 +1,45 @@
+.Name{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+    position: relative; /* para que el borde sea relativo al título */
+    display: flex;
+    text-align: center;
+}
+    
+ 
+
+.Name::after {
+    content: ''; /* contenido generado */
+    position: absolute; /* posición absoluta en relación al título */
+    bottom: -2px; /* desplaza el borde hacia abajo */
+    left: 15%; /* alineación a la izquierda */
+    width: 70%; /* mitad del ancho del título */
+    height: 0.3rem; /* grosor del borde */
+    background-color: rgb(255, 255, 255); /* color del borde */
+}
+@media(max-width:1279px){
+    .Name{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+@media(max-height:500px){
+    .Name{
+        font-size: 1.2rem;
+        line-height: 2rem;
+
+
+    }
+
+}
+/* @media(max-height:900px){
+    .Name{
+        font-size: 1rem;
+        line-height: 2rem;
+
+
+    }
+
+} */

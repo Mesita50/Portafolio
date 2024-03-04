@@ -1,0 +1,42 @@
+.imgProfile{
+    width: 70%;
+    height: 30%;
+    border-radius: 50%;  
+}
+
+@media(max-width:1279px){
+  
+ .imgProfile{
+   width: 100%;
+   height: 25%;
+ }
+}
+
+
+@media(max-width:920px){
+  .imgProfile{
+    width: 80%;
+    height: 25%;
+  }
+}
+
+@media(max-width:480px){
+  .imgProfile{
+    width: 50%;
+    height: 25%;
+  }
+}
+
+
+
+
+
+
+/* @media(max-height:900px){
+  .imgProfile{
+    width: 30%;
+    height: 20%;
+
+}
+  
+} */

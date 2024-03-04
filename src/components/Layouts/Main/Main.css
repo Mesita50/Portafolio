@@ -1,0 +1,26 @@
+main{
+    padding: 3rem;
+    width: 65%;
+    padding-left: 30%;
+}
+@media(max-width:920px){
+    main{
+        padding: 1rem;
+
+        padding-left: 35%;
+    }
+}
+
+@media(max-width:768px){
+    main{
+        padding: 1rem;
+        width: 100%;
+
+    }
+
+}
+@media(max-width:768px){
+    header{
+    } 
+    
+   }
